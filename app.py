@@ -19,8 +19,8 @@ def load_chunks(path="output/text_chunks.json"):
         chunks = json.load(f)
     return [chunk["text"] for chunk in chunks if chunk.get("text")]
 
-st.set_page_config(page_title="ESG Chat Agent", page_icon="🌿", layout="centered")
-st.title("🌿 ESG Report Q&A Assistant")
+st.set_page_config(page_title="Annual Report Chat Agent", page_icon="🌿", layout="centered")
+st.title("🌿 LTIMindtree's AI Assistant")
 st.caption("Ask questions about LTIMindtree’s 2023-24 sustainability report")
 
 # --- State Init ---
